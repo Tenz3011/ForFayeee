@@ -76,17 +76,21 @@ button{
 
 @media screen and (max-width: 600px){
     h1{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .text{
-        font-size: 18px;
+        font-size: 28px;
+    }
+    
+    .text2{
+        font-size: 28px;
     }
 
     .cat{
         height: 150;
     }
-    
+
     button{
         font-size: 22px;
         width: 60px;
