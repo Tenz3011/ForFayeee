@@ -80,9 +80,13 @@ button{
     }
 
     .text{
-        font-size: 26px;
+        font-size: 18px;
     }
 
+    .cat{
+        height: 150;
+    }
+    
     button{
         font-size: 22px;
         width: 60px;
