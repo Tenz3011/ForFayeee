@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "cute Font";
+    src: url(cute_2/CuteFont-Regular.otf);
+}
+
+:root{
+    --bg: linear-gradient(to bottom, #e381f2, #e572f6);
+}
+body{
+    background-image: var(--bg);
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "cute Font";
+    font-size: 70px;
+}
+
+.text{
+    text-align:center;
+}
+
+.border {
+    padding: 50px; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.cat{
+    text-align: center;
+    transform: translateY(100px);
+}
+
+
+.text{
+    color: white;
+    transform: translateY(10px);
+    font-family: "cute Font";
+    font-size: 45px;
+}
+.text2{
+    text-align: center;
+    color: white;
+    transform: translateY(150px);
+    font-family: "cute Font";
+    font-size: 45px;
+}
+
+button{
+    text-align: center;
+    background-color: #e572f6;
+    color:white;
+    border-radius: 7px;
+    font-family: "cute Font";
+    font-size:30px;
+    width: 100px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    top: 145px;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .valentine{
+        font-size: 28px;
+    }
+
+    .random{
+        font-size: 28px;
+    }
+
+    button{
+        font-size: 22px;
+        width: 60px;
+        height: 30px;
+        border-radius: 7px;
+    }
+}
+
+
