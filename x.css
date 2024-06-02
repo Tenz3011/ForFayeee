@@ -8,7 +8,7 @@
 }
 body{
     background-image: var(--bg);
-    min-height: 100vh;
+    min-height: 130vh;
 }
 
 h1{
@@ -82,7 +82,7 @@ button{
     .text{
         font-size: 28px;
     }
-    
+
     .text2{
         font-size: 28px;
     }
