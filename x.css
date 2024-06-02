@@ -20,6 +20,7 @@ h1{
 
 .text{
     text-align:center;
+    font-size: 50px;
 }
 
 .border {
@@ -75,19 +76,11 @@ button{
 
 @media screen and (max-width: 600px){
     h1{
-        font-size: 36px;
+        font-size: 30px;
     }
 
-    h2{
-        font-size: 28px;
-    }
-
-    .valentine{
-        font-size: 28px;
-    }
-
-    .random{
-        font-size: 28px;
+    .text{
+        font-size: 26px;
     }
 
     button{
