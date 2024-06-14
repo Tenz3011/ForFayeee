@@ -1,21 +1,26 @@
 @font-face {
     font-family: "cute Font";
     src: url(cute_2/CuteFont-Regular.otf);
+    
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(Roboto/Roboto-Medium.ttf)
 }
 
 :root{
     --bg: linear-gradient(to bottom, #e381f2, #e572f6);
 }
 body{
-    background-image: var(--bg);
+    background-color: black;
     min-height: 100vh;
 }
 
 h1{
     text-align: center;
     color: white;
-    font-family: "cute Font";
-    font-size: 70px;
+    font-family: "Roboto";
+    font-size: 50px;
 }
 
 .text{
@@ -55,7 +60,7 @@ h1{
 
 button{
     text-align: center;
-    background-color: #e572f6;
+    background-color:black;
     color:white;
     border-radius: 7px;
     font-family: "cute Font";
@@ -76,7 +81,7 @@ button{
 
 @media screen and (max-width: 600px){
     h1{
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .text{

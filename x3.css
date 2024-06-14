@@ -7,7 +7,11 @@
     --bg: linear-gradient(to bottom, #e381f2, #e572f6);
 }
 body{
-    background-image: var(--bg);
+    background-image: url("flower.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
     min-height: 100vh;
 }
 
@@ -16,6 +20,7 @@ h1{
     color: white;
     font-family: "cute Font";
     font-size: 70px;
+    text-shadow: -1px 2px 4px #eb77a5;
 }
 
 .text{
@@ -55,7 +60,7 @@ h1{
 
 button{
     text-align: center;
-    background-color: #e572f6;
+    background-color:black;
     color:white;
     border-radius: 7px;
     font-family: "cute Font";
@@ -77,6 +82,7 @@ button{
 @media screen and (max-width: 600px){
     h1{
         font-size: 36px;
+        text-shadow: -1px 1px 2px #eb77a5;
     }
 
     .text{
