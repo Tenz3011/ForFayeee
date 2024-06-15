@@ -82,7 +82,7 @@ button{
 @media screen and (max-width: 600px){
     h1{
         font-size: 36px;
-        text-shadow: -1px 1px 2px #eb77a5;
+        text-shadow: -1px 1px 2px black;
     }
 
     .text{
